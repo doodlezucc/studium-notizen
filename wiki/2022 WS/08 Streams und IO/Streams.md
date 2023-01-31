@@ -8,5 +8,6 @@ Streams besitzen zwei Seiten:
 ![[Stream.png]]
 
 In Java werden Streams für verschiedene Operationen verwendet.
+
 1. Ein-/Ausgabe über die Konsole ([[Standard-Datenströme]] `System.in`/`System.out`/`System.err`)
 2. Laden/Speichern von [[Dateien]] (`FileInputStream`, `FileOutputStream`)

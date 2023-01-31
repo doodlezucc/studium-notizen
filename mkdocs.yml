@@ -5,9 +5,14 @@ docs_dir: wiki
 
 theme:
   name: material
+  language: de
   palette:
-    primary: indigo
+    primary: green
+    accent: light green
     scheme: slate
+  features:
+    - navigation.sections
+    - navigation.footer
 
 # Extensions
 markdown_extensions:
@@ -28,6 +33,10 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
+extra_css:
+  - stylesheets/extra.css
+
 plugins:
   - search
   - roamlinks
+  - awesome-pages

@@ -4,7 +4,7 @@ Eine Klasse kann (prinzipiell) von mehreren Basisklassen erben ("Mehrfachvererbu
 #### Interfaces mit Default-Methoden
 Java 8+ erlaubt **default**-Methoden innerhalb von Interfaces, welche eine Standard-Implementierung vorgeben.
 
- ```java
+```java
 interface MyInterface {
 	void firstMethod();
 	void secondMethod();
@@ -38,7 +38,7 @@ game.printName(); // "Unknown"
 game.handleInput('a'); // "Pressed key a"
 ```
 
-##### Doppelte Methoden
+#### Doppelte Methoden
 **Fehler**, falls zwei implementierte Interfaces eine Methode mit **gleichem Namen** und **gleichen Argumenten** definieren.
 
 ```java

@@ -2,12 +2,14 @@
 Ein Algorithmus beschreibt, wie ein konkretes Problem gelöst werden soll – und zwar exakt. Er besteht aus einer endlichen Abfolge von Anweisungen.
 
 **Erforderliche Eigenschaften**
+
 1. **Finit** - Mit endlichem Text eindeutig beschreibbar
 2. **Dynamisch finit** - Endlicher Speicherbedarf
 3. **Ausführbar** - Jeder Schritt muss ausführbar sein
 4. **Terminierend** - Es werden nur endliche Schritte benötigt
 
 **Weitere mögliche Eigenschaften**
+
 1. **Determiniertheit** - Gleiche Eingabe liefert immer das gleiche Ergebnis
 2. **Deterministisch** - Der nächste Programmschritt ist immer eindeutig definiert
 

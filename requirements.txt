@@ -6,3 +6,5 @@ mkdocs-material>=8.1.7
 
 # Wikilinks support
 mkdocs-roamlinks-plugin>=0.1.3
+
+mkdocs-awesome-pages-plugin>=2.8.0

@@ -26,6 +26,7 @@ Komponenten seien dabei
 
 Dann wird zwischen drei Fällen unterschieden, abhängig von der Komplexität von $f(n)$.
 $$f(n) = \Theta(n^c)$$
+
 1. $c < \log_b a \implies T(n) = \Theta(n^{\log_b a})$
 2. $c = \log_b a \implies T(n) = \Theta(n^c * \log{n})$
 3. $c > \log_b a \implies T(n) = f(n)$
