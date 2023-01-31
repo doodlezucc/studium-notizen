@@ -5,6 +5,7 @@ Eine Subklasse kann geerbte Methoden der Superklasse **überschreiben** (overrid
 Methode muss die gleiche Signatur wie in der Superklasse haben und mit `@Override` gekennzeichnet werden.
 
 **Konstruktoren**
+
 - Der Konstruktor einer Unterklasse führt immer zuerst einen Konstruktor der Oberklasse aus.
 - Erste Zeile des Sub-Konstruktors: `super( Argumente... )`
 

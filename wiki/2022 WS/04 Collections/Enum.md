@@ -4,10 +4,12 @@
 - für **wenige konstante Instanzen**
 
 Instanzmethoden:
+
 - `ordinal()`: Index der Definition
 - `compareTo()`: Index vergleichen
 
 Klassenmethoden:
+
 - `values()`: [[Iterator#Iterable|Iterable]] aller definierter Konstanten im Enum
 
 ## [[UML]]-Notation

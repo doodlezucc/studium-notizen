@@ -1,5 +1,6 @@
 # Collection
 Collection Interface besitzt Funktionen:
+
 - einfügen eines Elements
 - löschen eines Elements
 - löschen aller Elemente

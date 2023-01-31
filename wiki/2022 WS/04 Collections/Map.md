@@ -1,5 +1,6 @@
 # Map
 Map = Dictionary = Abbildung
+
 - Gruppe von Schlüssel-Werte-Objektpaaren
 - realisiert **assoziativen Speicher** (Zugriff über individuelle Schlüssel *statt Index*)
 

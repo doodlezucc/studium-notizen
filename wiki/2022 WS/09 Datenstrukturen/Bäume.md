@@ -18,6 +18,7 @@ L     R
 
 ## Binärer Suchbaum (BST)
 Ein binärer Suchbaum hat folgende Eigenschaften:
+
 - Jeder Knoten hat maximal 2 Kinder ("links" und "rechts")
 - Für einen Knoten mit Wert ***N*** gilt
 	- Alle untergeordneten Knoten auf der *linken* Seite haben einen **Wert ≤ *N***

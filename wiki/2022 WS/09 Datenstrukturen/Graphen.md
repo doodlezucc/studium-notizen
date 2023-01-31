@@ -2,6 +2,7 @@
 Siehe [[Graph]].
 
 Weitere Eigenschaften eines Graphen:
+
 - **Grad/Valenz** - Anzahl der verbundenen Kanten an einem Knoten
 	- Gerichtete Graphen haben dabei *Eingangsgrad* und *Ausgangsgrad*
 - Ein Graph heißt "*regulär*", wenn **alle** Knoten **denselben Grad** haben

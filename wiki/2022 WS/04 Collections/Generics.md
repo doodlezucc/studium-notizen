@@ -3,6 +3,7 @@ Siehe [[Typisierung]].
 
 ## Generische Datentypen
 Man will
+
 - beliebige Elementtypen zulassen
 - beim Aufrufen von Container-Operationen einen konkreten Typ nutzen
 

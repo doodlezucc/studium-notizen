@@ -20,6 +20,7 @@ Darstellung der Teilprobleme als einzelne Knoten eines [[Bäume|Baums]]. Jeder T
 Diese Methode kann nur genutzt werden, falls der rekursive Algorithmus die folgende Form.
 $$T(n) = a * T(n/b) + f(n)$$
 Komponenten seien dabei
+
 - Anzahl der Teilprobleme pro Rekursionsschritt: $a \geq 1$
 - Teilung des Inputs pro Teilrekursion: $b > 1$
 

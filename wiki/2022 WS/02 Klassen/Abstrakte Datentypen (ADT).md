@@ -12,6 +12,7 @@ In Java realisierbar durch `private` und `protected`.
 
 ## Python
 Python erlaubt immer direkten Zugriff auf Attribute
+
 - strukturell lassen sich ADT nicht erzwingen
 - private Attribute normalerweise mit Unterstrich kennzeichnen (`_attribut`)
 - siehe [[Getter und Setter]]

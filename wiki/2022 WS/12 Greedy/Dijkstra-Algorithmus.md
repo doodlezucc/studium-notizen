@@ -2,6 +2,7 @@
 Der Dijkstra-Algorithmus findet die kürzesten [[Graphen#Wege und Pfade|Pfade]] von einem gewählten **Startknoten** zu allen anderen Knoten eines [[Graphen|Graphen]].
 
 Zu jedem Knoten werden zwei Dinge gespeichert.
+
 - Die *Pfadlänge* zum **Startknoten** (anfangs $\infty$)
 - Der *Vorläufer*-Knoten in seinem Pfad (anfangs `null`)
 

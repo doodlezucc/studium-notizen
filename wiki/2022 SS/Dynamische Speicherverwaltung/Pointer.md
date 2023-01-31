@@ -3,6 +3,7 @@ Alle Pointer haben dieselbe Größe.
 
 ### Heap-Speicher in C
 Speicher im Heap reservieren: `malloc(<size in bytes>)`
+
 - siehe [[sizeof]]
 - *return*: Pointer auf Speicheraddresse
 

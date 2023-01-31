@@ -2,6 +2,7 @@
 Klassen können von anderen Klassen "abgeleitet" werden.
 
 Abgeleitete Klassen
+
 - erben **alle *Attribute* und *Methoden*** der Basisklasse
 - können Attribute und Methoden **ergänzen**
 - können Methoden **modifizieren/überschreiben**
