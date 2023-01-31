@@ -59,7 +59,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="amber">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="">
   
     
     
@@ -1836,9 +1836,11 @@
 <h1 id="zeigerpointer">Zeiger/Pointer</h1>
 <p>Alle Pointer haben dieselbe Größe.</p>
 <h3 id="heap-speicher-in-c">Heap-Speicher in C</h3>
-<p>Speicher im Heap reservieren: <code>malloc(&lt;size in bytes&gt;)</code>
-- siehe <a href="../sizeof/">sizeof</a>
-- <em>return</em>: Pointer auf Speicheraddresse</p>
+<p>Speicher im Heap reservieren: <code>malloc(&lt;size in bytes&gt;)</code></p>
+<ul>
+<li>siehe <a href="../sizeof/">sizeof</a></li>
+<li><em>return</em>: Pointer auf Speicheraddresse</li>
+</ul>
 <p>Reservierten Speicher freigeben: <code>free(POINTER)</code></p>
 <div class="highlight"><pre><span></span><code><span class="c1">// Liegt auf Stack</span>
 <span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">18</span><span class="p">;</span>
@@ -1917,6 +1919,12 @@
     
     
       <script src="../../../assets/javascripts/bundle.a00a7c5e.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

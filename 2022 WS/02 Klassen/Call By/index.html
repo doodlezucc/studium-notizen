@@ -59,7 +59,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="amber">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="">
   
     
     
@@ -1789,12 +1789,16 @@
 
 <h1 id="call-by">Call By</h1>
 <p>Argumente eines Methoden-Aufrufs haben verschiedenes Verhalten, abhängig davon, ob es sich um einen <strong>primitiven</strong> Datentyp oder um eine <strong>Referenz</strong> handelt. (<a href="../../01%20Einf%C3%BChrung/Datentypen/">Datentypen</a>)</p>
-<p><strong>call by value</strong> (<em>primitiver Datentyp / immutable</em>)
-- Argument wird für die Methode "kopiert"
-- verändert sich deshalb nicht außerhalb der Methode</p>
-<p><strong>call by reference</strong> (<em>Referenz / mutable</em>)
-- Argument wird nicht kopiert
-- Intern wird also die Speicheradresse übergeben</p>
+<p><strong>call by value</strong> (<em>primitiver Datentyp / immutable</em>)</p>
+<ul>
+<li>Argument wird für die Methode "kopiert"</li>
+<li>verändert sich deshalb nicht außerhalb der Methode</li>
+</ul>
+<p><strong>call by reference</strong> (<em>Referenz / mutable</em>)</p>
+<ul>
+<li>Argument wird nicht kopiert</li>
+<li>Intern wird also die Speicheradresse übergeben</li>
+</ul>
 
 
 
@@ -1836,6 +1840,12 @@
     
     
       <script src="../../../assets/javascripts/bundle.a00a7c5e.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

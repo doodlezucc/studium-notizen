@@ -59,7 +59,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="amber">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="">
   
     
     
@@ -1835,16 +1835,24 @@
 
 <h1 id="hashfunktion">Hashfunktion</h1>
 <h2 id="kriterien-fur-gute-hashfunktionen">Kriterien für gute Hashfunktionen</h2>
-<p>Geringe Wahrscheinlichkeit von Kollisionen
-- Möglichst gleichmäßige Verteilung der Hashwerte auf erwartete Eingabewerte</p>
-<p>Chaos
-- Ähnliche Eingabewerte sollen zu möglichst verschiedenen Hashwerten führen
-- Idealfall: Ändern eines Eingabe-Bits = Ändern der Hälfte aller Hash-Bits</p>
-<p>Surjektivität
-- Kein Hashwert soll unmöglich sein</p>
-<p>Effizienz
-- Funktion muss schnell berechenbar sein
-- Funktion muss ohne großen Speicherverbrauch auskommen</p>
+<p>Geringe Wahrscheinlichkeit von Kollisionen</p>
+<ul>
+<li>Möglichst gleichmäßige Verteilung der Hashwerte auf erwartete Eingabewerte</li>
+</ul>
+<p>Chaos</p>
+<ul>
+<li>Ähnliche Eingabewerte sollen zu möglichst verschiedenen Hashwerten führen</li>
+<li>Idealfall: Ändern eines Eingabe-Bits = Ändern der Hälfte aller Hash-Bits</li>
+</ul>
+<p>Surjektivität</p>
+<ul>
+<li>Kein Hashwert soll unmöglich sein</li>
+</ul>
+<p>Effizienz</p>
+<ul>
+<li>Funktion muss schnell berechenbar sein</li>
+<li>Funktion muss ohne großen Speicherverbrauch auskommen</li>
+</ul>
 <p>Lösung: Kryptographische Hashfunktionen (md5, sha1)</p>
 
 
@@ -1887,6 +1895,12 @@
     
     
       <script src="../../../assets/javascripts/bundle.a00a7c5e.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

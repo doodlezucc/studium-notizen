@@ -59,7 +59,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="amber">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="">
   
     
     
@@ -1789,17 +1789,21 @@
 
 <h1 id="dijkstra-algorithmus">Dijkstra-Algorithmus</h1>
 <p>Der Dijkstra-Algorithmus findet die kürzesten <a href="../../09%20Datenstrukturen/Graphen/#wege-und-pfade">Pfade</a> von einem gewählten <strong>Startknoten</strong> zu allen anderen Knoten eines <a href="../../09%20Datenstrukturen/Graphen/">Graphen</a>.</p>
-<p>Zu jedem Knoten werden zwei Dinge gespeichert.
-- Die <em>Pfadlänge</em> zum <strong>Startknoten</strong> (anfangs $\infty$)
-- Der <em>Vorläufer</em>-Knoten in seinem Pfad (anfangs <code>null</code>)</p>
-<ol>
-<li>Setze die <em>Pfadlänge</em> des <strong>Startknoten</strong> auf 0</li>
+<p>Zu jedem Knoten werden zwei Dinge gespeichert.</p>
+<ul>
+<li>Die <em>Pfadlänge</em> zum <strong>Startknoten</strong> (anfangs <span class="arithmatex">\(\infty\)</span>)</li>
+<li>
+<p>Der <em>Vorläufer</em>-Knoten in seinem Pfad (anfangs <code>null</code>)</p>
+</li>
+<li>
+<p>Setze die <em>Pfadlänge</em> des <strong>Startknoten</strong> auf 0</p>
+</li>
 <li><em>Schleife: bis keine Knoten mehr übrig sind</em><ol>
 <li>Entnehme den Knoten mit der kleinsten <em>Pfadlänge</em> ("<strong>Priority Queue</strong>")</li>
 <li><em>Schleife: für alle anschließenden Kanten des entnommenen Knoten</em><ol>
-<li>Sei $w$ = (<em>Pfadlänge</em> des entnommenen Knoten + <em>Gewicht</em> der Kante)</li>
-<li><em>Falls</em> $w$ &lt; <em>Pfadlänge</em> des anderen Knoten:<ol>
-<li>Setze die <em>Pfadlänge</em> des anderen Knoten auf $w$</li>
+<li>Sei <span class="arithmatex">\(w\)</span> = (<em>Pfadlänge</em> des entnommenen Knoten + <em>Gewicht</em> der Kante)</li>
+<li><em>Falls</em> <span class="arithmatex">\(w\)</span> &lt; <em>Pfadlänge</em> des anderen Knoten:<ol>
+<li>Setze die <em>Pfadlänge</em> des anderen Knoten auf <span class="arithmatex">\(w\)</span></li>
 <li>Trage als <em>Vorläufer</em> des anderen Knoten den entnommenen Knoten ein</li>
 </ol>
 </li>
@@ -1807,7 +1811,7 @@
 </li>
 </ol>
 </li>
-</ol>
+</ul>
 <p><img alt="Dijkstra.png" src="../../../Media/Dijkstra.png" /></p>
 <table>
 <thead>
@@ -1887,6 +1891,12 @@
     
     
       <script src="../../../assets/javascripts/bundle.a00a7c5e.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

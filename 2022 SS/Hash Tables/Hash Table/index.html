@@ -59,7 +59,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="amber">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="">
   
     
     
@@ -1983,7 +1983,7 @@
 </ul>
 <h3 id="linear-probing">Linear Probing</h3>
 <ul>
-<li>$h(k, i) = (k + i) \mod m$</li>
+<li><span class="arithmatex">\(h(k, i) = (k + i) \mod m\)</span></li>
 <li>Index um 1 erhöhen</li>
 <li><em>Problem:</em><ul>
 <li>Kollisionsballung verschlechtert Laufzeitverhalten</li>
@@ -1992,14 +1992,14 @@
 </ul>
 <h3 id="quadratic-probing">Quadratic Probing</h3>
 <ul>
-<li>$h(k, i) = (k + c_1 * i + c_2 * i^2) \mod m$</li>
-<li>Lege $c_1$ und $c_2$ für ein Hash Table <strong>konstant</strong> an</li>
+<li><span class="arithmatex">\(h(k, i) = (k + c_1 * i + c_2 * i^2) \mod m\)</span></li>
+<li>Lege <span class="arithmatex">\(c_1\)</span> und <span class="arithmatex">\(c_2\)</span> für ein Hash Table <strong>konstant</strong> an</li>
 <li>Nimmt immer größer werdende Sprünge</li>
 </ul>
 <h3 id="double-hashing">Double Hashing</h3>
 <ul>
-<li>$h(k, i) = (k + i * h_2(k)) \mod m$</li>
-<li>Hängt von einer unterschiedlichen Hashfunktion $h_2(k)$ ab</li>
+<li><span class="arithmatex">\(h(k, i) = (k + i * h_2(k)) \mod m\)</span></li>
+<li>Hängt von einer unterschiedlichen Hashfunktion <span class="arithmatex">\(h_2(k)\)</span> ab</li>
 <li>Sprungweite hängt vom Schlüssel ab</li>
 </ul>
 <h3 id="chaining">Chaining</h3>
@@ -2048,6 +2048,12 @@
     
     
       <script src="../../../assets/javascripts/bundle.a00a7c5e.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

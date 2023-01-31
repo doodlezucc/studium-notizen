@@ -59,7 +59,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="amber">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="">
   
     
     
@@ -1866,28 +1866,30 @@
 <h2 id="substitution-induktion">Substitution (Induktion)</h2>
 <p>Aus den Laufzeit-Komponenten eines Algorithmus wird eine rekursive Funktion gebildet. Aus dieser Funktion wird eine Komplexität eingeschätzt und dann induktiv bewiesen.</p>
 <ul>
-<li>Rekursive Formel: z.B. $T(n) = 2T(n/2) + n$</li>
-<li><strong>Geschätzte</strong> Komplexität der Formel: $\Theta(n \log{n})$</li>
-<li>Induktion: Beweisen von $T(n) \leq c * n \log{n}$ (Komplexität multipliziert mit einer Konstante)</li>
+<li>Rekursive Formel: z.B. <span class="arithmatex">\(T(n) = 2T(n/2) + n\)</span></li>
+<li><strong>Geschätzte</strong> Komplexität der Formel: <span class="arithmatex">\(\Theta(n \log{n})\)</span></li>
+<li>Induktion: Beweisen von <span class="arithmatex">\(T(n) \leq c * n \log{n}\)</span> (Komplexität multipliziert mit einer Konstante)</li>
 </ul>
 <h2 id="rekurrenzbaum">Rekurrenzbaum</h2>
 <p>Darstellung der Teilprobleme als einzelne Knoten eines <a href="../../09%20Datenstrukturen/B%C3%A4ume/">Baums</a>. Jeder Teilproblem-Knoten ist beschriftet mit seinem "Arbeitsaufwand" (Komplexität).</p>
 <ul>
-<li>Die Komplexität von Blättern ist $\Theta(1)$</li>
+<li>Die Komplexität von Blättern ist <span class="arithmatex">\(\Theta(1)\)</span></li>
 <li><strong>Gesamtkomplexität</strong> durch Addition aller Knoten</li>
 </ul>
 <p><img alt="Rekurrenzbaum.png" src="../../../Media/Rekurrenzbaum.png" /></p>
 <h2 id="master-theorem">Master-Theorem</h2>
 <p>Diese Methode kann nur genutzt werden, falls der rekursive Algorithmus die folgende Form.
-$$T(n) = a * T(n/b) + f(n)$$
-Komponenten seien dabei
-- Anzahl der Teilprobleme pro Rekursionsschritt: $a \geq 1$
-- Teilung des Inputs pro Teilrekursion: $b &gt; 1$</p>
-<p>Dann wird zwischen drei Fällen unterschieden, abhängig von der Komplexität von $f(n)$.
-$$f(n) = \Theta(n^c)$$
-1. $c &lt; \log_b a \implies T(n) = \Theta(n^{\log_b a})$
-2. $c = \log_b a \implies T(n) = \Theta(n^c * \log{n})$
-3. $c &gt; \log_b a \implies T(n) = f(n)$</p>
+<span class="arithmatex">\(<span class="arithmatex">\(T(n) = a * T(n/b) + f(n)\)</span>\)</span>
+Komponenten seien dabei</p>
+<ul>
+<li>Anzahl der Teilprobleme pro Rekursionsschritt: <span class="arithmatex">\(a \geq 1\)</span></li>
+<li>Teilung des Inputs pro Teilrekursion: <span class="arithmatex">\(b &gt; 1\)</span></li>
+</ul>
+<p>Dann wird zwischen drei Fällen unterschieden, abhängig von der Komplexität von <span class="arithmatex">\(f(n)\)</span>.
+<span class="arithmatex">\(<span class="arithmatex">\(f(n) = \Theta(n^c)\)</span>\)</span>
+1. <span class="arithmatex">\(c &lt; \log_b a \implies T(n) = \Theta(n^{\log_b a})\)</span>
+2. <span class="arithmatex">\(c = \log_b a \implies T(n) = \Theta(n^c * \log{n})\)</span>
+3. <span class="arithmatex">\(c &gt; \log_b a \implies T(n) = f(n)\)</span></p>
 
 
 
@@ -1929,6 +1931,12 @@ $$f(n) = \Theta(n^c)$$
     
     
       <script src="../../../assets/javascripts/bundle.a00a7c5e.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

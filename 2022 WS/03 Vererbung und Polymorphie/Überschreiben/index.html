@@ -59,7 +59,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="amber">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="">
   
     
     
@@ -1837,9 +1837,11 @@
 <p>Eine Subklasse kann geerbte Methoden der Superklasse <strong>überschreiben</strong> (override), d.h. neu implementieren.</p>
 <h2 id="java">Java</h2>
 <p>Methode muss die gleiche Signatur wie in der Superklasse haben und mit <code>@Override</code> gekennzeichnet werden.</p>
-<p><strong>Konstruktoren</strong>
-- Der Konstruktor einer Unterklasse führt immer zuerst einen Konstruktor der Oberklasse aus.
-- Erste Zeile des Sub-Konstruktors: <code>super( Argumente... )</code></p>
+<p><strong>Konstruktoren</strong></p>
+<ul>
+<li>Der Konstruktor einer Unterklasse führt immer zuerst einen Konstruktor der Oberklasse aus.</li>
+<li>Erste Zeile des Sub-Konstruktors: <code>super( Argumente... )</code></li>
+</ul>
 <div class="highlight"><pre><span></span><code><span class="kd">class</span> <span class="nc">SuperClass</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">id</span><span class="p">;</span>
 
@@ -1912,6 +1914,12 @@
     
     
       <script src="../../../assets/javascripts/bundle.a00a7c5e.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

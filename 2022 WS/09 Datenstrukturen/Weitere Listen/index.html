@@ -59,7 +59,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="amber">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="">
   
     
     
@@ -1908,20 +1908,26 @@
 <h4 id="doppelte-linked-list">Doppelte Linked List</h4>
 <p>Eine <a href="#linked-list">#Linked List</a>, wobei jedes Element der Liste beinhaltet eine Referenz auf das nächste Element <strong>und das vorherige</strong> Element.</p>
 <h4 id="circular-linked-list">Circular Linked List</h4>
-<p>Eine Circular Linked List ist ein geschlossener "Ring" von Elementen.
-- Das letzte Element der Liste zeigt wieder auf das erste Element
-- Kann mit <a href="#linked-list">#Linked List</a> oder <a href="#doppelte-linked-list">#Doppelte Linked List</a> umgesetzt werden</p>
+<p>Eine Circular Linked List ist ein geschlossener "Ring" von Elementen.</p>
+<ul>
+<li>Das letzte Element der Liste zeigt wieder auf das erste Element</li>
+<li>Kann mit <a href="#linked-list">#Linked List</a> oder <a href="#doppelte-linked-list">#Doppelte Linked List</a> umgesetzt werden</li>
+</ul>
 <h2 id="stack">Stack</h2>
-<p>Implementiert LIFO ("<em>Last in, first out</em>").
-- <code>push(&lt;ELEMENT&gt;)</code> - Element auf den Stack <em>legen</em>
-- <code>pop()</code> - Oberstes Element aus dem Stack <em>entnehmen</em>
-- <code>peek() / top()</code> - Oberstes Element aus dem Stack <em>zurückgeben</em>, aber <strong>nicht entnehmen</strong></p>
+<p>Implementiert LIFO ("<em>Last in, first out</em>").</p>
+<ul>
+<li><code>push(&lt;ELEMENT&gt;)</code> - Element auf den Stack <em>legen</em></li>
+<li><code>pop()</code> - Oberstes Element aus dem Stack <em>entnehmen</em></li>
+<li><code>peek() / top()</code> - Oberstes Element aus dem Stack <em>zurückgeben</em>, aber <strong>nicht entnehmen</strong></li>
+</ul>
 <h2 id="queue">Queue</h2>
-<p>Implementiert FIFO ("First in, first out").
-- <code>enqueue(&lt;ELEMENT&gt;)</code> - Element an das Ende der Queue <em>anhängen</em>
-- <code>dequeue()</code> - Vorderstes Element aus der Queue <em>entnehmen</em>
-- <code>front()</code> - Vorderstes Element <em>zurückgeben</em>, aber <strong>nicht entnehmen</strong>
-- <code>rear()</code> - Hinterstes Element <em>zurückgeben</em></p>
+<p>Implementiert FIFO ("First in, first out").</p>
+<ul>
+<li><code>enqueue(&lt;ELEMENT&gt;)</code> - Element an das Ende der Queue <em>anhängen</em></li>
+<li><code>dequeue()</code> - Vorderstes Element aus der Queue <em>entnehmen</em></li>
+<li><code>front()</code> - Vorderstes Element <em>zurückgeben</em>, aber <strong>nicht entnehmen</strong></li>
+<li><code>rear()</code> - Hinterstes Element <em>zurückgeben</em></li>
+</ul>
 
 
 
@@ -1963,6 +1969,12 @@
     
     
       <script src="../../../assets/javascripts/bundle.a00a7c5e.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>

@@ -59,7 +59,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="amber">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="">
   
     
     
@@ -1877,21 +1877,21 @@
 
 <h1 id="graph">Graph</h1>
 <ul>
-<li>Graph $G = (V, E)$<ul>
-<li>$V = \set{1,2, ..., |V|}$ - Menge von Knoten</li>
-<li>$E \subseteq V \times V$ - Menge von Pfeilen/Kanten</li>
+<li>Graph <span class="arithmatex">\(G = (V, E)\)</span><ul>
+<li><span class="arithmatex">\(V = \set{1,2, ..., |V|}\)</span> - Menge von Knoten</li>
+<li><span class="arithmatex">\(E \subseteq V \times V\)</span> - Menge von Pfeilen/Kanten</li>
 </ul>
 </li>
 </ul>
 <h2 id="gerichtetungerichtet">Gerichtet/Ungerichtet</h2>
 <ul>
-<li>Ein gerichteter Graph besteht aus Pfeilen von $v$ nach $v'$.</li>
-<li>Ein ungerichteter Graph besteht aus Kanten, sodass $(v,v') \in E \implies (v', v) \in E$.</li>
+<li>Ein gerichteter Graph besteht aus Pfeilen von <span class="arithmatex">\(v\)</span> nach <span class="arithmatex">\(v'\)</span>.</li>
+<li>Ein ungerichteter Graph besteht aus Kanten, sodass <span class="arithmatex">\((v,v') \in E \implies (v', v) \in E\)</span>.</li>
 </ul>
 <h2 id="darstellung-adjazenzmatrix">Darstellung - Adjazenzmatrix</h2>
 <ul>
 <li>Speichert für alle Kanten entweder 0 (<code>false</code>) oder 1 (<code>true</code>) in zweidimensionalem Array</li>
-<li>Benötigt $|V|^2$ Bits/Booleans</li>
+<li>Benötigt <span class="arithmatex">\(|V|^2\)</span> Bits/Booleans</li>
 <li>Ungünstig, wenn die Anzahl an Verbindungen klein ist</li>
 </ul>
 <h2 id="darstellung-adjazenzliste">Darstellung - Adjazenzliste</h2>
@@ -1909,7 +1909,7 @@
 <li>schwarz - besucht</li>
 </ul>
 </li>
-<li>Startknoten $v_0$ auf Stack/Queue</li>
+<li>Startknoten <span class="arithmatex">\(v_0\)</span> auf Stack/Queue</li>
 <li>
 <p><em>Solange Stack/Queue nicht leer:</em></p>
 <ul>
@@ -1963,6 +1963,12 @@
     
     
       <script src="../../../assets/javascripts/bundle.a00a7c5e.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
