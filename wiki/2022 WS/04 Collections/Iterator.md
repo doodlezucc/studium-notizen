@@ -1,3 +1,4 @@
+# Iterator
 Ein Iterator bewegt sich über eine Sequenz, ohne die unterliegende Datenstruktur zu kennen.
 - leicht herzustellen
 - bewegen sich in nur eine Richtung

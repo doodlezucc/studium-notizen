@@ -1,3 +1,4 @@
+# CPU
 #### Vorgang
 - Kommando wird aus dem Speicher/Heap in **Kommandoregister** geladen
 - **Kommandologik** führt aktuelles Kommando aus

@@ -1,3 +1,4 @@
+# Exceptions
 ### Hierarchie
 - `Error` = Problem in der _JVM_
 	- **sollten nicht** gecatcht werden

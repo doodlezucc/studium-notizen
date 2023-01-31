@@ -1,3 +1,4 @@
+# Interfaces
 Interfaces = Schnittstellen
 
 Interfaces können von anderen Interfaces erben (`extends`).

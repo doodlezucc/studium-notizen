@@ -1,3 +1,4 @@
+# Algorithmus
 Ein Algorithmus beschreibt, wie ein konkretes Problem gelöst werden soll – und zwar exakt. Er besteht aus einer endlichen Abfolge von Anweisungen.
 
 **Erforderliche Eigenschaften**

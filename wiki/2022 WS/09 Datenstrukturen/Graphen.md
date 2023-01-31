@@ -1,3 +1,4 @@
+# Graphen
 Siehe [[Graph]].
 
 Weitere Eigenschaften eines Graphen:

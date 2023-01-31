@@ -1,3 +1,4 @@
+# Objekterzeugung und -Löschung
 Objekte werden aus Klassen (Objekt-Vorlagen) mit dem Aufrufen eines **Konstruktors** erzeugt. Wenn das Objekt nicht mehr gebraucht wird, muss der belegte Speicher freigegeben werden.
 
 ## Java

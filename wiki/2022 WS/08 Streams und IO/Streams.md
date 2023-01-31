@@ -1,3 +1,4 @@
+# Streams
 Ein Stream ist eine Datenstruktur ähnlich wie eine **Queue**/Warteschlange.
 
 Streams besitzen zwei Seiten:

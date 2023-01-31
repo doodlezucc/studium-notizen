@@ -1,3 +1,4 @@
+# Standard-Datenströme
 In Java gibt es 3 Standard-Datenströme für die Ein-/Ausgabe von Nachrichten in der **Konsole**.
 
 ## Input

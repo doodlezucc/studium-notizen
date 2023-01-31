@@ -1,3 +1,4 @@
+# Pakete
 Pakete erlauben die hierarchische **Strukturierung** von Code.
 
 ## Java

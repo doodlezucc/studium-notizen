@@ -1,3 +1,4 @@
+# Enum
 - Alternative zu `class`
 - **ohne Vererbung**
 - für **wenige konstante Instanzen**

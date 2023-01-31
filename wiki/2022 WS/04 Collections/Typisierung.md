@@ -1,3 +1,4 @@
+# Typisierung
 ## Typsicherheit
 Werden Typfehler spätestens zur Laufzeit erkannt, spricht man von **typsicheren Sprachen**.
 - keine Typverletzungen

@@ -1,3 +1,4 @@
+# Dateien
 **Datei**: Generell eine (unstrukturierte) Folge von Bytes.
 **Dateizeiger**: Byte-Position, an der aktuell gelesen/geschrieben wird.
 

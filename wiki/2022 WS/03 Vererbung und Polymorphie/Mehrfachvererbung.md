@@ -1,3 +1,4 @@
+# Mehrfachvererbung
 Eine Klasse kann (prinzipiell) von mehreren Basisklassen erben ("Mehrfachvererbung"). In Java ist der Übersicht halber **nur Einfachvererbung** möglich.
 
 #### Interfaces mit Default-Methoden

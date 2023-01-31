@@ -1,3 +1,4 @@
+# Greedy
 Greedy-Algorithmen nehmen immer die Entscheidung, die in dem Moment am besten aussieht.
 
 Im Gegensatz zu Backtracking gehen **Greedy**-Algorithmen nie Rückwärtsschritte.

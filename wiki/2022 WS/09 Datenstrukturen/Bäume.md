@@ -1,3 +1,4 @@
+# Bäume
 Von einem Wurzelknoten ausgehend hat ein **Baum** untergeordnete Kinderknoten.
 
 ## Traversierung

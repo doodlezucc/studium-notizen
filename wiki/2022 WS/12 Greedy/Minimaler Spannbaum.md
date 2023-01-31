@@ -1,3 +1,4 @@
+# Minimaler Spannbaum
 **Spannbaum** - Eine [[Bäume|Baum]]-Struktur, die aus einem *gewichteten* [[Graphen]] entsteht.
 
 Ein **Spannbaum** heißt "minimal", wenn er alle Knoten beinhaltet und die Kanten mit dem kleinstmöglichen Gesamtgewicht überträgt.

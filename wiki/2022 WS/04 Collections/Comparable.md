@@ -1,3 +1,4 @@
+# Comparable
 Schnittstelle, um Objekte vergleichbar zu machen.
 - `< 0`, falls `a < b`
 - `== 0`, falls `a == b`

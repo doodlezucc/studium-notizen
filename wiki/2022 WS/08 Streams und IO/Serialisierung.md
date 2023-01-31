@@ -1,3 +1,4 @@
+# Serialisierung
 Das Konvertieren von einem **Objekt --> Bytes**, die z.B. auf der Festplatte gespeichert werden können.
 
 Die gelagerten Bytes können danach wieder *deserialisiert* werden (**Bytes --> Objekt**).

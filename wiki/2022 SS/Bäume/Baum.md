@@ -1,3 +1,4 @@
+# Baum
 ## Eigenschaften
 - Zwischen zwei Knoten gibt es genau einen Weg
 - Es gibt immer eine Kante weniger als Knoten

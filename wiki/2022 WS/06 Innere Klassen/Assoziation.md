@@ -1,3 +1,4 @@
+# Assoziation
 ## Beziehungen zwischen [[UML]]-Klassen
 - ungerichtet (kein Pfeil): "nicht definiert"
 - gerichtet (1-2 Pfeilenden)

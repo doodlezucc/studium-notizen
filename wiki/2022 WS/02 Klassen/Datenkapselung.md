@@ -1,3 +1,4 @@
+# Datenkapselung
 ## Implementierungssicht
 - Interna des Objekts werden verborgen
 - Konsistenz des Objekts kann garantiert werden

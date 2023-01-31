@@ -1,3 +1,4 @@
+# sizeof
 #### `sizeof(<TYPE>)`
 Type | Size
 ---- | ----

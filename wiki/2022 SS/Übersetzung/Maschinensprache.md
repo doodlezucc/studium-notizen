@@ -1,3 +1,4 @@
+# Maschinensprache
 Rechner basieren auf **Von-Neumann-Architektur**, d.h. CPU führt schrittweise Kommandos (in **Maschinensprache**) aus.
 
 **Bus-System** transportiert Daten zwischen **CPU** und **Ein-/Ausgabewerk** oder **Speicherwerk**.

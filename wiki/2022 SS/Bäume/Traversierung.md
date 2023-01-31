@@ -1,3 +1,4 @@
+# Traversierung
 ## Tiefensuche (depth-first)
 - Pre-order (Hauptreihenfolge): `W-l-r`
 - Post-order (Nebenreihenfolge): `l-r-W`

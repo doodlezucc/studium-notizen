@@ -1,3 +1,4 @@
+# Methodentypen
 ## Java
 In Java unterscheidet man zwischen **Klassen**-Methoden (`static`) und **Objekt/Instanz**-Methoden.
 

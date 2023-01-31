@@ -1,3 +1,4 @@
+# Vererbung
 Klassen können von anderen Klassen "abgeleitet" werden.
 
 Abgeleitete Klassen

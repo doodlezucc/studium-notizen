@@ -1,3 +1,4 @@
+# Abstrakte Klassen
 - Klassen, von denen keine konkreten Objekte/Instanzen erzeugt werden können
 - werden als **Schnittstellen** verwendet (mit teilweiser Standardimplementierungen)
 - können **abstrakte** Methoden(-Signaturen) beinhalten, welche erst in Unterklassen einen Körper bekommen

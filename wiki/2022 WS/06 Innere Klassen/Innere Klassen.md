@@ -1,3 +1,4 @@
+# Innere Klassen
 ## Vorteile von inneren Klassen
 - logische Gruppierung vereinfacht die Pakete
 - erhöhte Verkapselung (kann private Felder der äußeren Klasse nutzen und verändern)
