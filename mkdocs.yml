@@ -1,0 +1,27 @@
+site_name: Informatik 2 Notizen
+site_url: https://gitlab.reutlingen-university.de/wiese/informatik-2-notizen
+site_dir: public
+docs_dir: wiki
+
+theme:
+  name: material
+  palette:
+    primary: brown
+    accent: amber
+    scheme: slate
+
+# Extensions
+markdown_extensions:
+  - footnotes
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.tasklist
+  - pymdownx.emoji
+  - admonition
+
+plugins:
+  - search
+  - roamlinks
