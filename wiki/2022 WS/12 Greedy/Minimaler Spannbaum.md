@@ -7,6 +7,7 @@ Ein **Spannbaum** heißt "minimal", wenn er alle Knoten beinhaltet und die Kante
 Kanten von kleinstem zu größtem Gewicht sortieren und der Reihenfolge nach in einen **Baum** übertragen.
 
 Zyklen müssen explizit durch **Find-Union** vermieden werden.
+
 - Alle Knoten besitzen am Anfang eine **Menge**, die nur den einzelnen Knoten beinhaltet.
 - Mit jeder eingetragenen Kante werden die **Mengen** beider Knoten *vereint*.
 - Eine Kante wird übersprungen, falls beide Knoten *dieselbe* **Menge** besitzen (sonst würde ein Zyklus entstehen).
