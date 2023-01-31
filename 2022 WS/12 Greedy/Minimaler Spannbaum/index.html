@@ -1858,18 +1858,22 @@
 <p>Ein <strong>Spannbaum</strong> heißt "minimal", wenn er alle Knoten beinhaltet und die Kanten mit dem kleinstmöglichen Gesamtgewicht überträgt.</p>
 <h2 id="kruskal-algorithmus">Kruskal-Algorithmus</h2>
 <p>Kanten von kleinstem zu größtem Gewicht sortieren und der Reihenfolge nach in einen <strong>Baum</strong> übertragen.</p>
-<p>Zyklen müssen explizit durch <strong>Find-Union</strong> vermieden werden.
-- Alle Knoten besitzen am Anfang eine <strong>Menge</strong>, die nur den einzelnen Knoten beinhaltet.
-- Mit jeder eingetragenen Kante werden die <strong>Mengen</strong> beider Knoten <em>vereint</em>.
-- Eine Kante wird übersprungen, falls beide Knoten <em>dieselbe</em> <strong>Menge</strong> besitzen (sonst würde ein Zyklus entstehen).</p>
-<ol>
-<li>Alle Kanten des Graphen von kleinstem zu größtem Gewicht sortieren</li>
+<p>Zyklen müssen explizit durch <strong>Find-Union</strong> vermieden werden.</p>
+<ul>
+<li>Alle Knoten besitzen am Anfang eine <strong>Menge</strong>, die nur den einzelnen Knoten beinhaltet.</li>
+<li>Mit jeder eingetragenen Kante werden die <strong>Mengen</strong> beider Knoten <em>vereint</em>.</li>
+<li>
+<p>Eine Kante wird übersprungen, falls beide Knoten <em>dieselbe</em> <strong>Menge</strong> besitzen (sonst würde ein Zyklus entstehen).</p>
+</li>
+<li>
+<p>Alle Kanten des Graphen von kleinstem zu größtem Gewicht sortieren</p>
+</li>
 <li><em>Schleife: alle Kanten der Reihenfolge nach</em><ol>
 <li>Überprüfen, ob die beiden Knoten der Kante schon in Verbindung stehen ("<strong>Find-Union</strong>")</li>
 <li>Falls <strong>nicht</strong>: Kante eintragen</li>
 </ol>
 </li>
-</ol>
+</ul>
 <p><img alt="Kruskal.png" src="../../../Media/Kruskal.png" /></p>
 <h2 id="prim-algorithmus">Prim-Algorithmus</h2>
 <ol>
