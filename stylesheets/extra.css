@@ -1,0 +1,46 @@
+body {
+    --md-default-fg-color: hsla(var(--md-hue),25%,86%,1) !important;
+}
+
+.md-grid {
+    max-width: 80rem;
+}
+
+.md-content__inner {
+    margin: 8rem !important;
+    margin-top: 0 !important;
+}
+
+.md-nav__item--section {
+    margin: 4em 0;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 0.8rem !important;
+}
+td, th {
+    padding: 0.2em 0.5em !important;
+    border: 0.05rem solid var(--md-typeset-table-color);
+}
+
+strong {
+    color: #fff;
+    font-weight: normal;
+}
+
+.md-typeset h2 {
+    margin-top: 3em;
+}
+
+.md-typeset h3 {
+    margin-top: 3em;
+}
+
+.md-typeset h4 {
+    margin-top: 3em;
+}
+
+.md-typeset h1 + h2 {
+    margin-top: 0;
+}
