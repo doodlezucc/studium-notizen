@@ -1798,14 +1798,13 @@
 <p>Zu jedem Knoten werden zwei Dinge gespeichert.</p>
 <ul>
 <li>Die <em>Pfadlänge</em> zum <strong>Startknoten</strong> (anfangs <span class="arithmatex">\(\infty\)</span>)</li>
-<li>
-<p>Der <em>Vorläufer</em>-Knoten in seinem Pfad (anfangs <code>null</code>)</p>
-</li>
-<li>
-<p>Setze die <em>Pfadlänge</em> des <strong>Startknoten</strong> auf 0</p>
-</li>
+<li>Der <em>Vorläufer</em>-Knoten in seinem Pfad (anfangs <code>null</code>)</li>
+</ul>
+<p><br></p>
+<ol>
+<li>Setze die <em>Pfadlänge</em> des <strong>Startknoten</strong> auf 0</li>
 <li><em>Schleife: bis keine Knoten mehr übrig sind</em><ol>
-<li>Entnehme den Knoten mit der kleinsten <em>Pfadlänge</em> ("<strong>Priority Queue</strong>")</li>
+<li>Entnehme den Knoten mit der kleinsten <em>Pfadlänge</em> (effizient mit "<strong>Priority Queue</strong>")</li>
 <li><em>Schleife: für alle anschließenden Kanten des entnommenen Knoten</em><ol>
 <li>Sei <span class="arithmatex">\(w\)</span> = (<em>Pfadlänge</em> des entnommenen Knoten + <em>Gewicht</em> der Kante)</li>
 <li><em>Falls</em> <span class="arithmatex">\(w\)</span> &lt; <em>Pfadlänge</em> des anderen Knoten:<ol>
@@ -1817,7 +1816,7 @@
 </li>
 </ol>
 </li>
-</ul>
+</ol>
 <p><img alt="Dijkstra.png" src="../../../Media/Dijkstra.png" /></p>
 <table>
 <thead>
@@ -1835,22 +1834,22 @@
 </tr>
 <tr>
 <td>1</td>
-<td>s</td>
+<td><span class="arithmatex">\(s\)</span></td>
 <td><code>-------- t(10,s) x( ∞,-) y( 5,s) z( ∞,-)</code></td>
 </tr>
 <tr>
 <td>2</td>
-<td>y</td>
+<td><span class="arithmatex">\(y\)</span></td>
 <td><code>-------- t( 8,s) x(14,y) ------- z( 7,y)</code></td>
 </tr>
 <tr>
 <td>3</td>
-<td>z</td>
+<td><span class="arithmatex">\(z\)</span></td>
 <td><code>-------- t( 8,s) x(13,y) ------- -------</code></td>
 </tr>
 <tr>
 <td>4</td>
-<td>t</td>
+<td><span class="arithmatex">\(t\)</span></td>
 <td><code>-------- ------- x( 9,y) ------- -------</code></td>
 </tr>
 </tbody>

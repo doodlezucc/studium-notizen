@@ -2,6 +2,10 @@ body {
     --md-default-fg-color: hsla(var(--md-hue),25%,86%,1) !important;
 }
 
+::selection {
+    background-color: #3f6e58;
+}
+
 .md-grid {
     max-width: 80rem;
 }
