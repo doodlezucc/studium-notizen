@@ -1,4 +1,4 @@
-site_name: Informatik 2 Notizen
+site_name: Medien- und Kommunikationsinformatik
 site_url: https://github.com/doodlezucc/studium-notizen
 site_dir: public
 docs_dir: wiki
@@ -8,7 +8,7 @@ theme:
   language: de
   palette:
     primary: green
-    accent: light green
+    accent: cyan
     scheme: slate
   features:
     - navigation.sections

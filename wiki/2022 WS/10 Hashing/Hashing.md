@@ -7,6 +7,7 @@ Hashfunktionen und deren Anwendung.
 - **Kryptologie** - Einseitiges Verschlüsseln von Passwörtern
 
 **Kriterien für einen guten Hashalgorithmus**
+
 1. **Streuung** - Möglichst gleichverteilte Hashwerte für erwartete Eingaben (weniger Kollisionen)
 2. **Datenreduktion** - Ein Hashwert soll weniger Speicher verbrauchen als die Eingabe
 3. **Chaos** - Möglichst verschiedene Hashwerte für ähnliche Eingaben
