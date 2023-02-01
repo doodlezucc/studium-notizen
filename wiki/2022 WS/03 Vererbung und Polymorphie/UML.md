@@ -32,8 +32,8 @@ UML-Diagramme sind Projektentwürfe.
 	- Rückgabetyp
 
 #### Besonderheiten
-- abstrakte Klassen und Methoden *kursiv* oder \<abstract>
-- statische Attribute und Methoden <u>unterstrichen</u> oder \<static>
+- abstrakte Klassen und Methoden *kursiv* oder `<abstract>`
+- statische Attribute und Methoden <u>unterstrichen</u> oder `<static>`
 
 ## Generalisierung
 - Pfeil von Unterklasse auf Oberklasse
