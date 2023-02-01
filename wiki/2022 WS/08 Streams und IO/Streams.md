@@ -2,6 +2,7 @@
 Ein Stream ist eine Datenstruktur ähnlich wie eine **Queue**/Warteschlange.
 
 Streams besitzen zwei Seiten:
+
 1. **Quelle**: Hier werden Daten in die Queue *hinzugefügt*.
 2. **Senke**: Hier werden Daten aus der Queue *entfernt*.
 

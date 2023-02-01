@@ -16,6 +16,7 @@ Man will
 - Deklaration einer Collection erhält Elementtyp als **generischen Typ-Parameter**
 - seit Java 5
 - `List<E>` = generischer Typ, `E` = Typ-Parameter
+
 ```java
 interface List<E> {
 	void add(int index, E element);

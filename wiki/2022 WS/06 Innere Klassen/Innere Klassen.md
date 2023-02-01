@@ -33,6 +33,7 @@ Account.Permissions = new Account.Permissions();
 
 ### Instanzklassen
 - Können auf alle Eigenschaften einer Instanz zugreifen
+
 ```java
 public interface Selector<T> {
 	Iterable<T> getItems();
@@ -55,6 +56,7 @@ public class Sequence<T> {
 ```
 
 ### Lokale Klassen
+
 ```java
 class Math {
 	public static void calculate() {
@@ -70,6 +72,7 @@ class Math {
 ```
 
 ### Anonyme Klassen
+
 ```java
 interface Callback {
 	void call();
@@ -96,6 +99,7 @@ public static void main(String[] args) {
 
 
 ### Python
+
 ```python
 class Outer():
 	class Inner():

@@ -24,6 +24,7 @@ public class Foo {
 - starke Form der Aggregation
 - Teil-Objekt kann nicht ohne sein Komposit-Objekt existieren
 	- darf also nicht nach außen weitergegeben werden
+
 ```java
 public class Foo {
 	private Bar bar = new Bar();

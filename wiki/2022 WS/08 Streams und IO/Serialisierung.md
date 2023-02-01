@@ -15,6 +15,7 @@ Algorithmus, um ein bestimmtes Objekt in Bytes zu verwandeln.
 		2. Falls die Referenz bereits geschrieben wurde, schreibe ihre **ID**
 
 Eine Klasse ist **nur** serialisierbar, wenn...
+
 1. Sie das [[Interfaces|Marker-Interface]] `Serializable` implementiert
 2. In ihren Attributen ausschließlich [[Datentypen#Primitive Datentypen|primitive Datentypen]] und serialisierbare Objekte stehen
 
