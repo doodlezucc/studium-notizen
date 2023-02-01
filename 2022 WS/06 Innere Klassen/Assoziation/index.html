@@ -1927,17 +1927,17 @@
 <ul>
 <li>starke Form der Aggregation</li>
 <li>Teil-Objekt kann nicht ohne sein Komposit-Objekt existieren<ul>
-<li>darf also nicht nach außen weitergegeben werden
+<li>darf also nicht nach außen weitergegeben werden</li>
+</ul>
+</li>
+</ul>
 <div class="highlight"><pre><span></span><code><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Foo</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">Bar</span><span class="w"> </span><span class="n">bar</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Bar</span><span class="p">();</span>
 <span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Bar</span><span class="p">{</span>
 <span class="w">        </span><span class="p">...</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="p">}</span>
-</code></pre></div></li>
-</ul>
-</li>
-</ul>
+</code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Foo</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">Bar</span><span class="w"> </span><span class="n">bar</span><span class="p">;</span>
 <span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">Foo</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>

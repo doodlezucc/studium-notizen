@@ -1885,9 +1885,11 @@
 </ol>
 </li>
 </ol>
-<p>Eine Klasse ist <strong>nur</strong> serialisierbar, wenn...
-1. Sie das <a href="../../03%20Vererbung%20und%20Polymorphie/Interfaces/">Marker-Interface</a> <code>Serializable</code> implementiert
-2. In ihren Attributen ausschließlich <a href="../../01%20Einf%C3%BChrung/Datentypen/#primitive-datentypen">primitive Datentypen</a> und serialisierbare Objekte stehen</p>
+<p>Eine Klasse ist <strong>nur</strong> serialisierbar, wenn...</p>
+<ol>
+<li>Sie das <a href="../../03%20Vererbung%20und%20Polymorphie/Interfaces/">Marker-Interface</a> <code>Serializable</code> implementiert</li>
+<li>In ihren Attributen ausschließlich <a href="../../01%20Einf%C3%BChrung/Datentypen/#primitive-datentypen">primitive Datentypen</a> und serialisierbare Objekte stehen</li>
+</ol>
 <h3 id="de-serialisierung-mit-datenstrom">(De-)Serialisierung mit Datenstrom</h3>
 <p>In Java können serialisierbare Objekte mithilfe von <code>ObjectOutputStream</code> in einen Byte-Datenstrom konvertiert werden.</p>
 <div class="highlight"><pre><span></span><code><span class="kd">class</span> <span class="nc">ObjectOutputStream</span><span class="w"> </span><span class="p">{</span>
