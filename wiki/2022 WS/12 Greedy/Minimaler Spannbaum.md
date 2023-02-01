@@ -6,16 +6,17 @@ Ein **Spannbaum** heißt "minimal", wenn er alle Knoten beinhaltet und die Kante
 ## Kruskal-Algorithmus
 Kanten von kleinstem zu größtem Gewicht sortieren und der Reihenfolge nach in einen **Baum** übertragen.
 
+1. Alle Kanten des Graphen von kleinstem zu größtem Gewicht sortieren
+2. *Schleife: alle Kanten der Reihenfolge nach*
+	1. Überprüfen, ob die beiden Knoten der Kante schon in Verbindung stehen ("**Find-Union**")
+	2. Falls **nicht**: Kante eintragen
+
 Zyklen müssen explizit durch **Find-Union** vermieden werden.
 
 - Alle Knoten besitzen am Anfang eine **Menge**, die nur den einzelnen Knoten beinhaltet.
 - Mit jeder eingetragenen Kante werden die **Mengen** beider Knoten *vereint*.
 - Eine Kante wird übersprungen, falls beide Knoten *dieselbe* **Menge** besitzen (sonst würde ein Zyklus entstehen).
 
-1. Alle Kanten des Graphen von kleinstem zu größtem Gewicht sortieren
-2. *Schleife: alle Kanten der Reihenfolge nach*
-	1. Überprüfen, ob die beiden Knoten der Kante schon in Verbindung stehen ("**Find-Union**")
-	2. Falls **nicht**: Kante eintragen
 
 ![[Kruskal.png]]
 

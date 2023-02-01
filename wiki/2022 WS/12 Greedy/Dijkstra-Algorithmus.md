@@ -6,9 +6,11 @@ Zu jedem Knoten werden zwei Dinge gespeichert.
 - Die *Pfadlänge* zum **Startknoten** (anfangs $\infty$)
 - Der *Vorläufer*-Knoten in seinem Pfad (anfangs `null`)
 
+<br>
+
 1. Setze die *Pfadlänge* des **Startknoten** auf 0
 2. *Schleife: bis keine Knoten mehr übrig sind*
-	1. Entnehme den Knoten mit der kleinsten *Pfadlänge* ("**Priority Queue**")
+	1. Entnehme den Knoten mit der kleinsten *Pfadlänge* (effizient mit "**Priority Queue**")
 	2. *Schleife: für alle anschließenden Kanten des entnommenen Knoten*
 		1. Sei $w$ = (*Pfadlänge* des entnommenen Knoten + *Gewicht* der Kante)
 		2. *Falls* $w$ < *Pfadlänge* des anderen Knoten:
@@ -20,9 +22,9 @@ Zu jedem Knoten werden zwei Dinge gespeichert.
 | Iteration | Betrachteter Knoten | *Pfadlänge* und *Vorläufer* der jeweiligen Knoten |
 | --------- | ------------------- | ------------------------------------------------- |
 | 0         | -                   | `s( 0,- ) t( ∞,-) x( ∞,-) y( ∞,-) z( ∞,-)`        |
-| 1         | s                   | `-------- t(10,s) x( ∞,-) y( 5,s) z( ∞,-)`        |
-| 2         | y                   | `-------- t( 8,s) x(14,y) ------- z( 7,y)`        |
-| 3         | z                   | `-------- t( 8,s) x(13,y) ------- -------`        |
-| 4         | t                   | `-------- ------- x( 9,y) ------- -------`        |
+| 1         | $s$                 | `-------- t(10,s) x( ∞,-) y( 5,s) z( ∞,-)`        |
+| 2         | $y$                 | `-------- t( 8,s) x(14,y) ------- z( 7,y)`        |
+| 3         | $z$                 | `-------- t( 8,s) x(13,y) ------- -------`        |
+| 4         | $t$                 | `-------- ------- x( 9,y) ------- -------`        |
 
 Am Ende beinhaltet jeder Knoten des Graphen die minmale *Pfadlänge* zum **Startknoten** und den jeweiligen *Vorläufer*-Knoten seines minimalen Pfades.
