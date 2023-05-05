@@ -1,5 +1,5 @@
 # Einleitung
 
-Gesammelte Notizen zu den Vorlesungen **Informatik I** (SoSe 22) und **Informatik II** (WiSe 22).
+Gesammelte Notizen zu den Vorlesungen **Informatik I** (SoSe 22), **Informatik II** (WiSe 22) und **Informatik III** (SoSe 23).
 
-Unter *2022 WS* sind Themen des aktuellen Semesters zusammengefasst.
+Unter *2023 SS* sind Themen des aktuellen Semesters zusammengefasst.
